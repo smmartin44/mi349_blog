@@ -1,0 +1,85 @@
+html {
+    background-color: beige;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:lightblue;
+    margin: 30px;
+    padding: 20px;
+}
+
+.blog-info {
+    line-height: 5px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: lightcyan;
+    padding: 10px;
+    width: 180px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+a[href*=".html"]{
+    color: darkblue;
+}
+
+a:hover {
+    color: rgb(235, 86, 255);
+}
+
+#subscribe-newsletter {
+    font-weight: bold;
+    background-color: white;
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+select {
+    height: 30px;
+}
+
+input, select {
+    border-radius: 8px;
+    margin: 4px;
+}
+
+article {
+    border-top: black 4px solid;
+    margin-top: 20px;
+}
+
+table {
+    border: black 1px solid;
+}
+
+tr {
+    border: black 1px solid;
+}
+
+th {
+    border: black 1px solid;
+    padding: 5px;
+    background-color: darkblue;
+    color: white;
+}
+
+td {
+    border: black 1px solid;
+    padding: 5px;
+    background-color: white;
+}
+
+#submit-contact {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
