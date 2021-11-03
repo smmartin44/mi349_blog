@@ -1,5 +1,5 @@
 html {
-    background-color: beige;
+    background-color: beige;    
 }
 
 body {
@@ -14,12 +14,52 @@ body {
     font-weight: bold;
 }
 
+#blog1-flex {
+    display: flex;
+}
+
+#blog1-flex p {
+    margin: 30px;
+}
+
+#blog2-flex {
+    display: flex;
+}
+
+#blog2-flex p:nth-of-type(1){
+    flex: 2;
+    margin: 10px;
+}
+
+#blog2-flex p:nth-of-type(2){
+    flex: 6;
+    margin: 10px;
+}
+
+#blog2-flex table {
+    flex: 2;
+    margin: 10px;
+}
+
+
+#float-left {
+    float: left;
+    margin-right: 30px;
+}
+
 nav {
-    background-color: lightcyan;
-    padding: 10px;
-    width: 180px;
     font-size: 18px;
     font-style: italic;
+    margin: 30px;
+    background-color: lightcyan;
+    padding: 10px;
+    width: 250px;
+}
+
+h1 {
+    margin: 30px;
+    padding: 10px;
+    font-size: 40px;
 }
 
 a[href*=".html"]{
@@ -41,6 +81,10 @@ a:hover {
 
 select {
     height: 30px;
+}
+
+.flex-body {
+    display: flex;
 }
 
 input, select {
@@ -83,3 +127,11 @@ td {
     border-radius: 8px;
 }
 
+main {
+    min-height: 500px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}

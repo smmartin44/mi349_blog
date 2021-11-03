@@ -7,22 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <title>About the Author</title>
 </head>
-<body>
-    <header>
-        <h1>About the Author</h1>
-    </header>
+<body class="flex-body">
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-    </nav>
+    
+        <header class="sticky">
+            <h1>About the Author</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    
 
     <main>
         <h2>Sophie Martin</h2>
-        <p><img src="sophie.jpg" alt="Picture of Sophie" width=300 height=400></p>
+        <figure id="float-left">
+            <img src="sophie.jpg"
+                    alt="Picture of Sophie" width=300 height=400>
+            <figcaption>This is a picture of me in Denali National Park!</figcaption>
+        </figure>
         <p>Sophie Martin is a senior at Michigan State University studying
             computer science and minoring in graphic design. She is the president
             of Women in Computing and does a lot of work through the Women in
