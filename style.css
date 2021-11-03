@@ -36,12 +36,6 @@ body {
     margin: 10px;
 }
 
-#blog2-flex table {
-    flex: 2;
-    margin: 10px;
-}
-
-
 #float-left {
     float: left;
     margin-right: 30px;
@@ -99,6 +93,7 @@ article {
 
 table {
     border: black 1px solid;
+    margin: 20px;
 }
 
 tr {
